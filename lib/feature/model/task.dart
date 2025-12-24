@@ -1,7 +1,7 @@
 
 import 'package:equatable/equatable.dart';
 import 'package:hive/hive.dart';
-import 'package:todo_app/utils/task_category.dart';
+import 'package:todo_app/core/utils/task_category.dart';
 part 'task.g.dart'; 
 @HiveType(typeId: 0)
 class Task extends Equatable {

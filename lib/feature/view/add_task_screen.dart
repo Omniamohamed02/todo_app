@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/data/task.dart';
-import 'package:todo_app/utils/task_category.dart';
-import 'package:todo_app/widgets/add_task_buttons.dart';
-import 'package:todo_app/widgets/custom_from_field.dart';
-import 'package:todo_app/widgets/title_text.dart';
+import 'package:todo_app/feature/model/task.dart';
+import 'package:todo_app/core/utils/task_category.dart';
+import 'package:todo_app/feature/widgets/add_task_buttons.dart';
+import 'package:todo_app/feature/widgets/custom_from_field.dart';
+import 'package:todo_app/feature/widgets/title_text.dart';
 
 class AddTaskScreen extends StatefulWidget {
   const AddTaskScreen({super.key, });

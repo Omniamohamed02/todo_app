@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:todo_app/data/task.dart';
-import 'package:todo_app/screens/add_task_screen.dart';
+import 'package:todo_app/feature/model/task.dart';
+import 'package:todo_app/feature/view/add_task_screen.dart';
 
 
 class HomeScreen extends StatefulWidget {
